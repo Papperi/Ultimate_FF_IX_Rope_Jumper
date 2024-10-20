@@ -4,6 +4,22 @@ Welcome to the definitive solution for the Final Fantasy IX Jump Rope minigame! 
 
 ---
 
+# How the Script Works
+
+The script is designed to automate the jump rope minigame in **Final Fantasy IX**. It visually detects the timing for each jump and simulates a key press to perform the jump automatically. The script works by capturing specific parts of the game window and analyzing the color data to determine the right moment to jump. It also includes a fallback system that uses timing if the visual detection fails.
+
+# External Libraries Used
+
+1. **Pillow**: A Python Imaging Library that handles the processing and analysis of the screenshots taken from the game window. It is used to convert the captured image into a format that allows the script to analyze pixel color values.
+   - Install with: `pip install Pillow`
+
+2. **mss**: A lightweight library for capturing screenshots efficiently. The script uses this library to grab portions of the screen where the game displays the visual cue for jumping.
+   - Install with: `pip install mss`
+
+These two libraries are essential for the script's visual detection and automation process. The rest of the script uses standard Python libraries.
+
+---
+
 ## 🚨 IMPORTANT: 3 Seconds to Click the Game Window!
 
 After starting the script, **you have exactly 3 seconds** to click on the game window. Make sure to click **inside the window once** during these 3 seconds to ensure the script can interact with the game. **If you do not click inside the game window, the script WILL NOT WORK.** 
