@@ -1,4 +1,4 @@
-# FF9 Jump Rope Jumper 🎮🏆
+# Ultimate FF9 Jump Rope Jumper 🎮🏆
 
 Welcome to the definitive solution for the Final Fantasy IX Jump Rope minigame! This tool makes mastering the jump rope challenge an absolute breeze! 😎✨
 
