@@ -2,7 +2,11 @@
 
 Welcome to the definitive solution for the Final Fantasy IX Jump Rope minigame! This tool makes mastering the jump rope challenge an absolute breeze! 😎✨
 
-And the best part? **It works on the first try**! No more ninja reflexes required. With a finely-tuned visual and timing control system, you'll be jumping like a pro in no time. 🔥
+---
+
+## 🚨 IMPORTANT: 3 Seconds to Click the Game Window!
+
+After starting the script, **you have exactly 3 seconds** to click on the game window. Make sure to click **inside the window once** during these 3 seconds to ensure the script can interact with the game. **If you do not click inside the game window, the script WILL NOT WORK.** 
 
 ---
 
@@ -76,65 +80,19 @@ To ensure this script works correctly, you need to install the **Memoria Mod Lau
    python3 rope_jumper.py
    ```
 
-2. Return to the game window:
-   The program will take control and jump automatically when the time is right.
+2. **IMPORTANT: You have 3 seconds to click inside the game window!**
+   After running the script, you must **click inside the game window once** within 3 seconds, or else the script won't work properly. This will allow the script to interact with the game and automate the jumping process.
+
+3. Sit back and let the script do the jumping for you!
 
 ---
 
-## How does it work?
+### Credits
 
-1. **Visual Detection**: Detects the exclamation mark on screen and presses the `X` key at the perfect moment.
-2. **Backup Timing**: In case visual detection misses, the program uses a fallback timing system to ensure jumps.
+This project was originally based on the work by:
+- [Septomor](https://github.com/septomor/FF9-Jump-Rope-Script)
+- [Fritz-C](https://gist.github.com/fritz-c/7c0f5994a9bb21f4d93b58eca20882a8)
 
----
+Special thanks to the **Memoria Mod Launcher** team for their work in improving the game's performance and capabilities.
 
-## Libraries used
-
-### External libraries:
-
-1. **mss**: 
-   - Captures screenshots quickly and efficiently.
-   - Used for detecting the appearance of the exclamation mark in the game window.
-
-2. **Pillow (PIL)**: 
-   - Python Imaging Library for manipulating and analyzing images.
-   - Converts screenshots into images for pixel analysis to detect the correct timing.
-
-### Standard Python libraries:
-
-1. **ctypes**: 
-   - A foreign function library in Python, used to interact with Windows API and simulate key presses.
-
-2. **time**: 
-   - Used to manage timing and delays between actions, ensuring precise jump timing.
-
----
-
-## Game Setup
-
-- **Game Mode**: Windowed Mode
-- **Resolution**: 800x600
-- **Position**: Move the game window to the top-left corner of your screen.
-- **Memoria Mod**: Make sure the **60 FPS** option is enabled in the Memoria Launcher.
-
----
-
-## Credits
-
-Thanks to:
-
-- [Septomor](https://github.com/septomor/FF9-Jump-Rope-Script) for the original script.
-- [Fritz-C](https://gist.github.com/fritz-c/7c0f5994a9bb21f4d93b58eca20882a8) for the trigger key script.
-- **Andrea Alvino** for combining and improving the scripts.
-
----
-
-## License
-
-This project is licensed under the MIT License. Enjoy!
-
----
-
-It works on the first try! Test it yourself and see how smooth it is! 💪✨
-
-Happy jumping! 🤖🔧 
+Good luck with your 1000 jumps! 💪✨
