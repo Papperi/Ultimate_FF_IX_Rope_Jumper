@@ -53,7 +53,7 @@ If you don't have Python installed, follow these simple steps:
      sudo apt install python3
      ```
 
-Check if Python is installed by running:
+Check if Python is installed, open the terminal and type:
 ```bash
 python --version
 ```
